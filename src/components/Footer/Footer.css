@@ -1,6 +1,7 @@
 
 footer{
     width: 62%;
+    max-width: 944px;
     text-align: center;
     margin: 0 auto;
     padding: 32px 0 80px;
@@ -12,6 +13,13 @@ footer a{
     color: #24211d ;
     font-weight: 600;
     display: flex;
+    min-width: 110px;
+    transition: all 0.4s ease-in-out;
+}
+
+footer a:hover{
+    color: #905d16;
+    text-decoration: underline;
 }
 
 footer svg{
@@ -22,6 +30,7 @@ footer svg{
 
 .social-links-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -31,4 +40,24 @@ footer svg{
     font-weight: 600;
     text-align: center;
     margin-top: 154px;
+}
+
+
+@media screen and (max-width: 490px) {
+    footer{
+        width: 88%;
+        padding: 32px 0 40px;
+    }
+
+    .social-links-container{
+        gap: 24px;
+    }
+
+    footer a{
+        font-size: 1rem;
+    }
+
+    .copy-right{
+        margin-top: 80px;
+    }
 }

@@ -2,6 +2,7 @@
 
 .interest-section{
     width: 62%;
+    max-width: 944px;
     margin: 0 auto;
 }
 
@@ -28,4 +29,21 @@
     font-size: 1rem;
     margin-top: 24px;
     color: #968f7f;
+}
+
+
+
+@media screen and (max-width: 490px) {
+    .interest-section{
+        width: 88%;
+    }
+
+    .interest-cards-container{
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .interest-section img{
+        height: 280px;
+    }
 }

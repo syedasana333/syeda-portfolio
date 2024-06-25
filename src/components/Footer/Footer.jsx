@@ -1,16 +1,19 @@
 import { MdOutlineArrowOutward as ArrowOutward} from "react-icons/md";
 import React from "react";
 import './Footer.css';
-
+import { SocialCard } from "../../utils/Helpers";
+import data from "../../utils/data.json";
 
 const Footer = () => {
     return (
         <footer>
             <div className="social-links-container">
-                <a href="https://www.linkedin.com/in/syeda-sana-designing/" target="_blank">LinkedIn<ArrowOutward/></a>
-                <a href="https://linktr.ee/syeda_sana" target="_blank">Contact<ArrowOutward/></a>
-                <a href="https://github.com/syedasana333" target="_blank">Github<ArrowOutward/></a>
-                <a href="https://drive.google.com/file/d/1OH2IHXxD4XWa4txJWmVNnXhIEgFGZwak/view" target="_blank">Resume<ArrowOutward/></a>
+
+                {
+                    data.SocialLinks.map((elem) => {
+                        return <SocialCard SocialLink={elem.SocialLink} SocialLinkName={elem.SocialLinkName} key={elem.id}/>
+                    })
+                }
             </div>
 
             <p className="copy-right">&copy; 2024 Syeda Sana</p>

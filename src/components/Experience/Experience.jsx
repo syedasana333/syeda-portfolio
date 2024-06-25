@@ -1,6 +1,7 @@
 import React from "react";
 import './Experience.css';
 import { InfoCard } from "../../utils/Helpers";
+import data from '../../utils/data.json';
 
 const Experience = () => {
     return (
@@ -8,9 +9,11 @@ const Experience = () => {
             <h2>Experience</h2>
 
             <div className="experience-container">
-                <InfoCard title="Upskillist" category="Ed-tech" year="2024 - present"/>
-                <InfoCard title="Sensegrass" category="Agri-tech" year="2023 - 2023"/>
-                <InfoCard title="Fibo" category="Health & Fitness" year="2022 - 2023"/>
+                {
+                    data.experience.map((elem) => {
+                        return <InfoCard title={elem.title} category={elem.category} year={elem.year} key={elem.id}/>
+                    })
+                }
             </div>
 
         </section>

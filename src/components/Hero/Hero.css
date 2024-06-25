@@ -1,6 +1,7 @@
 
 main{
     width: 62%;
+    max-width: 944px;
     text-align: center;
     margin: 0 auto;
     padding-top: 120px;
@@ -10,6 +11,7 @@ main{
     width: 100px;
     height: 100px;
     border-radius: 12px;
+    box-shadow: 1px 4px 16px #4f4f4f1a;
 }
 
 h1{
@@ -48,4 +50,27 @@ main p{
 
 b{
     font-weight: 600;
+}
+
+@media  screen and (max-width: 490px) {
+    main{
+        width: 88%;
+    }
+
+    h1{
+        font-size: 2.125rem;
+        margin-bottom: 60px;
+    }
+
+    p{
+        font-size: 1rem ;
+    }
+
+    .about{
+        margin-top: 60px;
+    }
+
+    .straight-line{
+        margin:  80px auto;
+    }
 }

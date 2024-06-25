@@ -2,6 +2,7 @@
 
 .education-section{
     width: 62%;
+    max-width: 944px;
     margin: 0 auto;
     padding-bottom: 120px;
 }
@@ -17,4 +18,15 @@
     gap: 18px;
 }
 
+
+@media screen and (max-width: 490px) {
+    .education-section{
+        width: 88%;
+    }
+
+    .education-container{
+        gap: 32px;
+    }
+
+}
 

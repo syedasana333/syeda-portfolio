@@ -1,8 +1,19 @@
 import React from "react";
 import './Interests.css';
 import { InterestCard } from "../../utils/Helpers";
-import Interest1Img from "../../assets/interest1.png";
-import Interest2Img from "../../assets/interest2.png";
+import data from "../../utils/data.json"
+
+// IMPORT IMAGES
+
+import BookImage from "../../assets/Book.png";
+import GymImage from "../../assets/Gym.png";
+
+// MAP IMAGE KEY TO IMPORT IMAGES
+
+const imageMap = {
+    Book: BookImage,
+    Gym: GymImage
+};
 
 const Interests = () => {
     return (
@@ -10,8 +21,11 @@ const Interests = () => {
             <h2>Interests</h2>
 
             <div className="interest-cards-container">
-                <InterestCard img={Interest1Img} title="Japan, 2023" text= "I collect, collate, and document my travels extensively. A lot of my exposure and learnings come from the various cultures and people I’ve encountered along the way."/>
-                <InterestCard img={Interest2Img} title="Morning routine" text= "Fitness is central to my lifestyle, encompassing a diverse range of activities such as basketball, badminton, tennis, weight-training, swimming, and recently, running."/>
+                {
+                    data.interest.map((elem) => {
+                        return <InterestCard img={imageMap[elem.img]} title={elem.title} text={elem.text} key={elem.id}/>
+                    })
+                }
             </div>
 
             <div className="straight-line"></div>

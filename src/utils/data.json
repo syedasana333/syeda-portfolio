@@ -1,0 +1,81 @@
+
+{
+    "experience" : [
+        {
+            "id": "01",
+            "title": "Upskillist",
+            "category": "Ed-tech",
+            "year": "2024 - present"
+        }, 
+        {
+            "id": "02",
+            "title": "Sensegrass",
+            "category": "Agri-tech",
+            "year": "2023 - 2023"
+        }, 
+        {
+            "id": "03",
+            "title": "Fibo",
+            "category": "Health & Fitness",
+            "year": "2022 - 2023"
+        }   
+    ],
+    "education" : [
+        {
+            "id": "04",
+            "title": "Ethiraj",
+            "category": "B.sc Computer Science",
+            "year": "2019 - 2022"
+        }, 
+        {
+            "id": "05",
+            "title": "Crescent",
+            "category": "12th grade",
+            "year": "2018 - 2019"
+        }, 
+        {
+            "id": "06",
+            "title": "Don Bosco",
+            "category": "10th grade",
+            "year": "2016 - 2017"
+        }  
+    ],
+    "interest" : [
+        {
+            "id": "07",
+            "img": "Book",
+            "title": "Japan, 2023",
+            "text": "I collect, collate, and document my travels extensively. A lot of my exposure and learnings come from the various cultures and people I’ve encountered along the way."
+        },
+        {
+            "id": "08",
+            "img": "Gym",
+            "title": "Morning routine",
+            "text": "Fitness is central to my lifestyle, encompassing a diverse range of activities such as basketball, badminton, tennis, weight-training, swimming, and recently, running."
+        }
+    ],
+    "SocialLinks": [
+        {
+            "id": "09",
+            "SocialLink": "https://www.linkedin.com/in/syeda-sana-designing/",
+            "SocialLinkName": "LinkedIn"
+        },
+        {
+            "id": "10",
+            "SocialLink": "https://linktr.ee/syeda_sana",
+            "SocialLinkName": "Contact"
+        },
+        {
+            "id": "11",
+            "SocialLink": "https://github.com/syedasana333",
+            "SocialLinkName": "Github"
+        },
+        {
+            "id": "12",
+            "SocialLink": "https://drive.google.com/file/d/1OH2IHXxD4XWa4txJWmVNnXhIEgFGZwak/view",
+            "SocialLinkName": "Resume"
+        }
+    ]
+}
+
+
