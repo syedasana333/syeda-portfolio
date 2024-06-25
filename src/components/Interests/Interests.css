@@ -1,0 +1,31 @@
+
+
+.interest-section{
+    width: 62%;
+    margin: 0 auto;
+}
+
+.interest-section img{
+    width: 100%;
+    height: 320px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.interest-cards-container{
+    display: flex;
+    gap: 40px;
+}
+
+.interest-title{
+    text-align: center;
+    font-size: .875rem;
+    color: #968f7f;
+    margin-top: 12px;
+}
+
+.interest-text{
+    font-size: 1rem;
+    margin-top: 24px;
+    color: #968f7f;
+}
