@@ -1,0 +1,31 @@
+
+
+
+.info_container{
+    display: flex;
+    gap: 56px;
+}
+
+.card_title{
+    font-weight: 600;
+}
+
+.info_container p{
+    width: 120px;
+    flex-grow: 1;
+    font-size: 1.25rem;
+}
+
+.info_text{
+    color: #968f7f;
+}
+
+
+
+@media screen and (max-width: 490px) {
+    
+    .info_container{
+        flex-direction: column;
+        gap: 12px;
+    }
+}

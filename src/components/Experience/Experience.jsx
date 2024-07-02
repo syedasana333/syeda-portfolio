@@ -1,14 +1,14 @@
 import React from "react";
-import './Experience.css';
-import { InfoCard } from "../../utils/Helpers";
+import styles from './Experience.module.css';
+import InfoCard  from "../InfoCard/InfoCard";
 import data from '../../utils/data.json';
 
 const Experience = () => {
     return (
-        <section className="experience-section">
+        <section className={styles.experience_section}>
             <h2>Experience</h2>
 
-            <div className="experience-container">
+            <div className={styles.experience_container}>
                 {
                     data.experience.map((elem) => {
                         return <InfoCard title={elem.title} category={elem.category} year={elem.year} key={elem.id}/>

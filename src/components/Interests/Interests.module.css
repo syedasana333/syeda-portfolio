@@ -1,49 +1,54 @@
 
 
-.interest-section{
+.interest_section{
     width: 62%;
     max-width: 944px;
     margin: 0 auto;
 }
 
-.interest-section img{
+.interest_section img{
     width: 100%;
     height: 320px;
     border-radius: 16px;
     object-fit: cover;
 }
 
-.interest-cards-container{
+.interest_cards_container{
     display: flex;
     gap: 40px;
 }
 
-.interest-title{
+.interest_title{
     text-align: center;
     font-size: .875rem;
     color: #968f7f;
     margin-top: 12px;
 }
 
-.interest-text{
+.interest_text{
     font-size: 1rem;
     margin-top: 24px;
     color: #968f7f;
 }
 
-
+.straight_line{
+    height: 2px;
+    background: #EADCC3;
+    margin: 120px auto;
+    width: 100%;
+}
 
 @media screen and (max-width: 490px) {
-    .interest-section{
+    .interest_section{
         width: 88%;
     }
 
-    .interest-cards-container{
+    .interest_cards_container{
         flex-direction: column;
         gap: 72px;
     }
 
-    .interest-section img{
+    .interest_section img{
         height: 280px;
     }
 }

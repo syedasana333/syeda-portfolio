@@ -1,0 +1,23 @@
+
+
+.archives_section{
+    width: 62%;
+    max-width: 944px;
+    margin: 0 auto;
+    padding-bottom: 164px;
+}
+
+.archives_section img{
+    min-width: 280px;
+    height: 280px;
+}
+
+.archives_list_container{
+    display: flex;
+    gap: 88px 40px;
+    flex-wrap: wrap;
+}
+
+.archives_section a{
+    flex: 1;
+}

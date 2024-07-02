@@ -19,6 +19,7 @@ h1{
     font-weight: 500;
     margin: 64px 0 120px;
     line-height: 1.5;
+    color: #1c1c1c;
 }
 
 span{
@@ -41,10 +42,10 @@ main p{
 }
 
 
-.straight-line{
+.straight_line{
     height: 2px;
     background: #EADCC3;
-    margin: 100px auto;
+    margin: 120px auto;
     width: 100%;
 }
 

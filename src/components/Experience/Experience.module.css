@@ -1,0 +1,36 @@
+
+
+.experience_section{
+    width: 62%;
+    max-width: 944px;
+    margin: 0 auto;
+    padding-bottom: 164px;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.experience_container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+@media screen and (max-width: 490px) {
+    .experience_section{
+        width: 88%;
+    }
+
+    .experience_container{
+        gap: 32px;
+    }
+    
+    h2{
+        margin-bottom: 40px;
+        font-size: 1.5rem;
+    }
+}

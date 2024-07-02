@@ -75,6 +75,59 @@
             "SocialLink": "https://drive.google.com/file/d/1OH2IHXxD4XWa4txJWmVNnXhIEgFGZwak/view",
             "SocialLinkName": "Resume"
         }
+    ], 
+    "Work": [
+        {
+            "id": "14",
+            "img": "memory-game.png",
+            "title": "Memory Game",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/memory_game/"
+        },
+        {
+            "id": "15",
+            "img": "tic-tac-toe.png",
+            "title": "Tic Tac Toe",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/tic_tac_toe/"
+        },
+        {
+            "id": "16",
+            "img": "hangman.png",
+            "title": "Hangman",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/hang_man/"
+        }
+    ],
+    "Archive": [
+        {
+            "id": "17",
+            "img": "memory-game.png",
+            "title": "Memory Game",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/memory_game/"
+        },
+        {
+            "id": "18",
+            "img": "tic-tac-toe.png",
+            "title": "Tic Tac Toe",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/tic_tac_toe/"
+        },
+        {
+            "id": "19",
+            "img": "hangman.png",
+            "title": "Hangman",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/hang_man/"
+        },
+        {
+            "id": "20",
+            "img": "todo.png",
+            "title": "To Do",
+            "role": "Front-end Developer",
+            "link": "https://syedasana333.github.io/to-do/"
+        }
     ]
 }
 
